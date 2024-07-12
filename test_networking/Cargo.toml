@@ -1,0 +1,10 @@
+[package]
+name = "test_networking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+serde = { version = "1.0.204", features = ["serde_derive"] }
+tokio = { version = "1.38.0", features = ["full"] }
+tracing-subscriber = "0.3.18"

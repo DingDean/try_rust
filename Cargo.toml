@@ -1,0 +1,3 @@
+[workspace]
+members = ["test_networking", "test_system"]
+resolver = "2"
